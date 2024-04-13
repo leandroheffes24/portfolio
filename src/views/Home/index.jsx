@@ -1,10 +1,11 @@
-import styles from './Home.module.css'
+// import styles from './Home.module.css'
+import Header from '../../components/Header'
 
 const Home = () => {
     return(
-        <div>
-            Home
-        </div>
+        <>
+            <Header/>
+        </>
     )
 }
 
