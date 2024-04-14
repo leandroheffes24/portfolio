@@ -19,7 +19,7 @@ const Navbar = () => {
             </div>
 
             <div className={styles.openNavbarMenuIconContainer}>
-                <i onClick={handleShowNavbarList} style={{color: "rgb(250, 250, 250)", fontSize: "1.5rem"}} className={navbarMenuIconClass}></i>
+                <i onClick={handleShowNavbarList} className={navbarMenuIconClass} id={styles.openNavbarMenuIcon}></i>
             </div>
 
             {showNavbarList && (
