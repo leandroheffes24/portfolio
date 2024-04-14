@@ -1,20 +1,39 @@
 nav{
-    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.titleContainer{
-
-}
-
-.titleLink{
+a{
     text-decoration: none;
-    color: rgb(250, 250, 250);
+    color: white;
+}
+
+.logoContainer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 55px;
 }
 
 .openNavbarMenuIconContainer{
-
+    width: 20%;
+    text-align: right;
 }
 
 .openNavbarMenuIcon{
-    color: rgb(250, 250, 250); 
+    color: white; 
+}
+
+.navbarList{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: .9rem;
 }
