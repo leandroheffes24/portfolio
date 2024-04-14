@@ -31,6 +31,14 @@ const Navbar = () => {
                     <li><a href="/">Contact</a></li>
                 </ul>
             )}
+
+            <ul className={styles.desktopNavbarList}>
+                <li><a className={styles.desktopNavbarLink} href="/">Home</a></li>
+                <li><a className={styles.desktopNavbarLink} href="/">About me</a></li>
+                <li><a className={styles.desktopNavbarLink} href="/">What I'm doing</a></li>
+                <li><a className={styles.desktopNavbarLink} href="/">Proyects</a></li>
+                <li><a className={styles.desktopNavbarLink} href="/">Contact</a></li>
+            </ul>
         </nav>
     )
 }

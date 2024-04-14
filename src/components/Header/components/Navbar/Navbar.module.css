@@ -39,6 +39,10 @@ a{
     font-size: .9rem;
 }
 
+.desktopNavbarList{
+    display: none;
+}
+
 @media (width >= 768px) {
     .logo{
         width: 80px;
@@ -52,5 +56,67 @@ a{
         margin-top: 30px;
         gap: 25px;
         font-size: 1.3rem;
+    }
+}
+
+@media (width >= 992px) {
+    .logoContainer{
+        width: 20%;
+    }
+
+    .logo{
+        width: 50px;
+    }
+
+    .openNavbarMenuIconContainer{
+        display: none;
+    }
+
+    #openNavbarMenuIcon{
+        display: none;
+    }
+
+    .navbarList{
+        display: none;
+    }
+
+    .desktopNavbarList{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        list-style: none;
+        font-size: .8rem;
+        font-weight: 500;
+    }
+
+    .desktopNavbarLink{
+        padding: 5px 20px;
+        border-radius: 3px;
+        transition: all .5s
+    }
+
+    .desktopNavbarLink:hover{
+        background-color: rgb(60, 60, 60);
+    }
+}
+
+@media (width >= 1200px) {
+    .logo{
+        width: 50px;
+    }
+
+    .desktopNavbarList{
+        font-size: .8rem;
+        font-weight: 400;
+    }
+
+    .desktopNavbarLink{
+        padding: 5px 20px;
+        border-radius: 3px;
+        transition: all .5s
+    }
+
+    .desktopNavbarLink:hover{
+        background-color: rgb(60, 60, 60);
     }
 }
