@@ -1,39 +1,13 @@
 // import styles from './Home.module.css'
 import Header from '../../components/Header'
+import HomeSection from '../../components/HomeSection'
 
 const Home = () => {
     return(
         <>
             <Header/>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-            <h1>hola</h1>
-
+            <HomeSection/>
+            HOLA
         </>
     )
 }
