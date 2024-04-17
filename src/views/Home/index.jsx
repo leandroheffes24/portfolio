@@ -2,6 +2,7 @@
 import Header from '../../components/Header'
 import HomeSection from '../../components/HomeSection'
 import AboutMeSection from '../../components/AboutMeSection'
+import WhatImDoingSection from '../../components/WhatImDoingSection'
 
 const Home = () => {
     return(
@@ -9,6 +10,7 @@ const Home = () => {
             <Header/>
             <HomeSection/>
             <AboutMeSection/>
+            <WhatImDoingSection/>
         </>
     )
 }
