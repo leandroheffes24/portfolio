@@ -5,7 +5,7 @@ import swasistenciavirtual from '../../assets/images/swasistenciavirtual.webp'
 
 const ProyectsSection = () => {
     return (
-        <section className={styles.proyectsSection}>
+        <section id='proyects' className={styles.proyectsSection}>
             <div className={styles.titleTextContainer}>
                 <h3 className={styles.title}>My Proyects</h3>
                 <p className={styles.subTitle}>Let's take a look at my portfolio!</p>

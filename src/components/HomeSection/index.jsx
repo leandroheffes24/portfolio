@@ -2,7 +2,7 @@ import styles from './HomeSection.module.css'
 
 const HomeSection = () => {
     return (
-        <section className={styles.homeSection}>
+        <section id='home' className={styles.homeSection}>
             <div className={styles.content}>
                 <div className={styles.textContainer}>
                     <p className={styles.introductionText}>Hello, I'm</p>

@@ -5,7 +5,7 @@ import ContactSection from '../ContactSection'
 
 const AboutMeSection = () => {
     return (
-        <section className={styles.aboutMeSection}>
+        <section id='aboutMe' className={styles.aboutMeSection}>
             <div className={styles.textContainer}>
                 <div className={styles.titleTextContainer}>
                     <h3 className={styles.title}>About Me</h3>

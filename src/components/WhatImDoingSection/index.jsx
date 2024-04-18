@@ -2,7 +2,7 @@ import styles from './WhatImDoingSection.module.css'
 
 const WhatImDoingSection = () => {
     return (
-        <section className={styles.whatImDoingSection}>
+        <section id='whatImDoing' className={styles.whatImDoingSection}>
             <div className={styles.titleTextContainer}>
                 <h3 className={styles.title}>What I'm Doing</h3>
                 <p className={styles.subTitle}>Some things that i'll do for you</p>
