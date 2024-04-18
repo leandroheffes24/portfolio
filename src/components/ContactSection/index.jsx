@@ -27,7 +27,7 @@ const ContactSection = () => {
             <div className={styles.contactFormContainer}>
                 <h3 className={styles.title}>Contact Form</h3>
 
-                <form className={styles.contactForm} action="">
+                <form className={styles.contactForm} action="https://formspree.io/f/xoqgjpvn" method="POST">
                     <label htmlFor="name">
                         <input className={styles.input} type="text" name='name' id='name' placeholder='Name' maxLength={30} />
                     </label>
