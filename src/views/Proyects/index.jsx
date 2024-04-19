@@ -1,10 +1,15 @@
 import styles from './Proyects.module.css'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+import ProyectsPage from '../../components/ProyectsPage'
 
 const Proyects = () => {
     return(
-        <div>
-            Proyects
-        </div>
+        <>
+            <Header/>
+            <ProyectsPage/>
+            <Footer/>
+        </>
     )
 }
 

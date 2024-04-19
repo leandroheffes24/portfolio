@@ -1,7 +1,6 @@
 import styles from './AboutMeSection.module.css'
 import aboutMeImage from '../../assets/images/about-me-image.jpg'
 import cv from '../../assets/pdf/CV-Leandro-Heffes.pdf'
-import ContactSection from '../ContactSection'
 
 const AboutMeSection = () => {
     return (
@@ -13,12 +12,11 @@ const AboutMeSection = () => {
                 </div>
 
                 <div className={styles.aboutMeTextContainer}>
-                    <p className={styles.aboutMeText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quibusdam optio assumenda rerum nisi fugit nostrum placeat laborum, et odit numquam earum unde dolorem ducimus neque vel quae alias eaque.
-                    Asperiores dicta vel labore quibusdam at eum in. Porro consequatur eligendi corrupti. Fugiat reiciendis nemo, pariatur ipsam magni eaque voluptatibus explicabo consectetur. Illum voluptatum commodi perspiciatis repudiandae porro aliquam mollitia!</p>
+                    <p className={styles.aboutMeText}>I am a full stack web developer, with a strong front-end orientation. I am 21 years old and currently live in Bahía Blanca, Buenos Aires, Argentina. I am working freelance and looking for a new experience in a company or project that allows me to put my skills into practice and develop as a professional.</p>
                 </div>
 
                 <div className={styles.buttonsContainer}>
-                    <a className={styles.hireMeButton} href={ContactSection}>Hire me</a>
+                    <a className={styles.hireMeButton} href='#contact'>Hire me</a>
 
                     <a className={styles.cvButton} href={cv} download={cv}>Download CV</a>
                 </div>

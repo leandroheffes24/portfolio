@@ -1,0 +1,137 @@
+.proyectsPage{
+    padding: 100px 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.proyectContainer{
+    position: relative;
+    height: 200px;
+    width: 300px;
+}
+
+.proyectContainer:hover{
+    .proyectInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(10px);
+    }
+}
+
+.proyectImage{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+.proyectInfo{
+    display: none;
+}
+
+.proyectTitle{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.proyectLink{
+    background-color: white;
+    color: rgb(15,15,15);
+    border: 1px solid rgb(15,15,15);
+    padding: 3px 25px;
+    transition: all .5s;
+}
+
+.proyectLink:hover{
+    background-color: rgb(15,15,15);
+    color: white;
+    transition: all .5s;
+}
+
+@media (width >= 768px) {
+    .proyectsPage{
+        padding: 170px 40px 50px;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .proyectContainer{
+        height: 230px;
+        width: 47%;
+    }
+
+    .proyectImage{
+        height: 230px;
+    }
+
+    .proyectTitle{
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+
+    .proyectLink{
+        padding: 3px 35px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (width >= 992px) {
+    .proyectsPage{
+        padding: 105px 60px 40px;
+        gap: 30px;
+    }
+
+    .proyectContainer{
+        height: 200px;
+        width: 31%;
+    }
+
+    .proyectImage{
+        height: 200px;
+    }
+
+    .proyectTitle{
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .proyectLink{
+        padding: 3px 25px;
+        font-size: .9rem;
+    }
+}
+
+@media (width >= 1200px) {
+    .proyectsPage{
+        padding: 130px 80px 70px;
+    }
+
+    .proyectContainer{
+        height: 220px;
+        width: 23%;
+    }
+
+    .proyectImage{
+        height: 220px;
+    }
+
+    .proyectTitle{
+        font-size: 1.1rem;
+    }
+
+    .proyectLink{
+        padding: 5px 25px;
+    }
+}
