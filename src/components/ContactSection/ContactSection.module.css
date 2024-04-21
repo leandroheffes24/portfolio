@@ -44,10 +44,13 @@ label{
     font-size: 1rem;
     padding: 5px;
     outline: none;
+    transition: all .5s;
 }
 
 .input:focus{
     border: 2px solid rgb(200, 200, 200);
+    transition: all .5s;
+    box-shadow: 0px 0px 3px 0px gray;
 }
 
 .submitButton{
@@ -57,6 +60,7 @@ label{
     font-size: 1rem;
     padding: 3px 15px;
     transition: .5s all;
+    cursor: pointer;
 }
 
 .submitButton:hover{

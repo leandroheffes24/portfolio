@@ -17,7 +17,7 @@ const ProyectsSection = () => {
                         <img className={styles.card__image} src={swasistenciavirtual} alt="SW Asistencia Virtual mockup" />
                         <div className={styles.card__content}>
                             <p className={styles.card__title}>SW Asistencia Virtual</p>
-                            <p className={styles.card__description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <p className={styles.card__description}>Website made for Silvia Waimann, virtual assistant who needs to show her experience and services to obtain new clients.</p>
                         </div>
                     </div>
                 </a>
@@ -27,7 +27,7 @@ const ProyectsSection = () => {
                         <img className={styles.card__image} src={movieSearcherImage} alt="Movie Searcher by Leandro Heffes" />
                         <div className={styles.card__content}>
                             <p className={styles.card__title}>Movie Searcher</p>
-                            <p className={styles.card__description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <p className={styles.card__description}>Project to search for movies using the OMDB api.</p>
                         </div>
                     </div>
                 </a>
@@ -37,7 +37,7 @@ const ProyectsSection = () => {
                         <img className={styles.card__image} src={clothingEcommerceImage} alt="Movie Searcher by Leandro Heffes" />
                         <div className={styles.card__content}>
                             <p className={styles.card__title}>Clothing e-commerce</p>
-                            <p className={styles.card__description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <p className={styles.card__description}>Unofficial clothing ecommerce carried out in the Digital House course with a development team.</p>
                         </div>
                     </div>
                 </a>
