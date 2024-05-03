@@ -1,6 +1,6 @@
 import styles from './ProyectsSection.module.css'
 import clothingEcommerceImage from '../../assets/images/clothingecommerce.webp'
-import movieSearcherImage from '../../assets/images/moviesearcher.png'
+import generala from '../../assets/images/generala.webp'
 import swasistenciavirtual from '../../assets/images/swasistenciavirtual.webp'
 
 const ProyectsSection = () => {
@@ -22,12 +22,12 @@ const ProyectsSection = () => {
                     </div>
                 </a>
 
-                <a href="https://movie-searcher-leandroheffes.vercel.app/">
+                <a href="https://generala.vercel.app/">
                     <div className={styles.card}>
-                        <img className={styles.card__image} src={movieSearcherImage} alt="Movie Searcher by Leandro Heffes" />
+                        <img className={styles.card__image} src={generala} alt="Anotador Generala by Leandro Heffes" />
                         <div className={styles.card__content}>
-                            <p className={styles.card__title}>Movie Searcher</p>
-                            <p className={styles.card__description}>Project to search for movies using the OMDB api.</p>
+                            <p className={styles.card__title}>Anotador Generala</p>
+                            <p className={styles.card__description}>Scorer of the Generala dice game.</p>
                         </div>
                     </div>
                 </a>

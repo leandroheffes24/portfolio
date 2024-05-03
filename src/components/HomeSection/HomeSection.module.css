@@ -1,7 +1,7 @@
 .homeSection{
     height: 100vh;
     background-color: rgb(15, 15, 15);
-    background-image: url('../../assets/images/home-section-background.png');
+    background-image: url('../../assets/images/home-section-background.svg');
     background-repeat: no-repeat;
     background-position: center;
 }

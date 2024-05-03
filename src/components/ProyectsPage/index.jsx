@@ -1,6 +1,6 @@
 import styles from './ProyectsPage.module.css'
 import clothingEcommerceImage from '../../assets/images/clothingecommerce.webp'
-import movieSearcherImage from '../../assets/images/moviesearcher.png'
+import generala from '../../assets/images/generala.webp'
 import swasistenciavirtual from '../../assets/images/swasistenciavirtual.webp'
 
 const ProyectsPage = () => {
@@ -30,12 +30,12 @@ const ProyectsPage = () => {
 
             <div className={styles.proyectContainer}>
                 <div className={styles.proyectImageContainer}>
-                    <img className={styles.proyectImage} src={movieSearcherImage} alt="Movie Searcher mockup" />
+                    <img className={styles.proyectImage} src={generala} alt="Anotador Generala mockup" />
                 </div>
 
                 <div className={styles.proyectInfo}>
-                    <h4 className={styles.proyectTitle}>Movie Searcher</h4>
-                    <a className={styles.proyectLink} href="https://movie-searcher-leandroheffes.vercel.app/">Visit</a>
+                    <h4 className={styles.proyectTitle}>Anotador Generala</h4>
+                    <a className={styles.proyectLink} href="https://generala.vercel.app/">Visit</a>
                 </div>
             </div>
         </section>
