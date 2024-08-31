@@ -20,9 +20,9 @@ const Footer = () => {
                 </a>
             </div>
 
-            <p className={styles.developedByText}>Developed by <a className={styles.developedByLink} href="https://leandroheffesportfolio.vercel.app/">Leandro Heffes</a></p>
+            <p className={styles.developedByText}>Desarrollado por <a className={styles.developedByLink} href="https://leandroheffesportfolio.vercel.app/">Leandro Heffes</a></p>
 
-            <p className={styles.copyrightText}>© Leandro Heffes 2024. All rights reserved.</p>
+            <p className={styles.copyrightText}>© Leandro Heffes 2024. Todos los derechos reservados.</p>
         </footer>
     )
 }

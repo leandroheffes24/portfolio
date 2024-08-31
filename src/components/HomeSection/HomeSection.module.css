@@ -125,7 +125,7 @@
     transition: .2s ease-in-out;
 }
 
-.discord {
+.whatsapp {
     margin-top: -.9em;
     margin-left: -1.2em;
     font-size: 1.2rem;
@@ -165,7 +165,7 @@
     cursor: pointer;
     scale: 1.05;
     color: white;
-    background-color: #8c9eff;
+    background-color: #00bb2d;
     .socialNetworksLink{
         color: white;
     }
@@ -231,7 +231,7 @@
         height: 90px;
     }
 
-    .discord {
+    .whatsapp {
         font-size: 1.4rem;
     }
 }
@@ -289,7 +289,7 @@
         height: 50px;
     }
 
-    .discord {
+    .whatsapp {
         font-size: 1rem;
     }
 }
@@ -350,7 +350,7 @@
         height: 70px;
     }
 
-    .discord {
+    .whatsapp {
         font-size: 1rem;
     }
 }

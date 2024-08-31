@@ -89,25 +89,6 @@
     line-height: 1.4;
 }
 
-.moreProyectsButtonContainer{
-    margin-top: 50px;
-    text-align: center;
-}
-
-.moreProyectsLink{
-    text-decoration: none;
-    color: rgb(15, 15, 15);
-    border: 1px solid rgb(15, 15, 15);
-    padding: 3px 15px;
-    transition: .5s all;
-}
-
-.moreProyectsLink:hover{
-    background-color: rgb(15, 15, 15);
-    color: white;
-    transition: .5s all;
-}
-
 @media (width >= 768px) {
     .proyectsSection{
         padding: 60px 40px;
@@ -119,15 +100,6 @@
 
     .proyectsContainer{
         margin-top: 70px;
-    }
-
-    .moreProyectsButtonContainer{
-        margin-top: 70px;
-    }
-
-    .moreProyectsLink{
-        padding: 5px 20px;
-        font-size: 1.1rem;
     }
 }
 
@@ -143,14 +115,6 @@
     .proyectsContainer{
         margin-top: 80px;
     }
-
-    .moreProyectsButtonContainer{
-        margin-top: 80px;
-    }
-
-    .moreProyectsLink{
-        padding: 5px 25px;
-    }
 }
 
 @media (width >= 1200px) {
@@ -165,15 +129,5 @@
     .proyectsContainer{
         margin-top: 90px;
         gap: 50px;
-    }
-
-    .moreProyectsButtonContainer{
-        margin-top: 100px;
-    }
-
-    .moreProyectsLink{
-        font-size: 1.2rem;
-        border: 2px solid rgb(15, 15, 15);
-        padding: 5px 30px;
     }
 }

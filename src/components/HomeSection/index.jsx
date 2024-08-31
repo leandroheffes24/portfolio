@@ -5,9 +5,9 @@ const HomeSection = () => {
         <section id='home' className={styles.homeSection}>
             <div className={styles.content}>
                 <div className={styles.textContainer}>
-                    <p className={styles.introductionText}>Hello, I'm</p>
-                    <h1 className={styles.title}>Leandro Heffes</h1>
-                    <h2 className={styles.subTitle}>Full stack web developer.</h2>
+                    <p className={styles.introductionText}>¡Bienvenido! Soy</p>
+                    <h1 className={styles.title}>Leandro Heffes.</h1>
+                    <h2 className={styles.subTitle}>Desarrollador web full stack.</h2>
                 </div>
 
                 <div className={styles.socialNetworksContainer}>
@@ -31,8 +31,8 @@ const HomeSection = () => {
                                 </a>
                             </button>
                             <button className={styles.card4}>
-                                <a className={styles.socialNetworksLink} href="">
-                                    <i className={`${'fa-brands fa-discord'} ${styles.discord}`}></i>
+                                <a className={styles.socialNetworksLink} href="https://wa.link/tj71f6">
+                                    <i className={`${'fa-brands fa-whatsapp'} ${styles.whatsapp}`}></i>
                                 </a>
                             </button>
                         </div>

@@ -4,7 +4,7 @@ const ContactSection = () => {
     return (
         <section id='contact' className={styles.contactSection}>
             <div className={styles.contactInfoContainer}>
-                <h3 className={styles.title}>Contact Info</h3>
+                <h3 className={styles.title}>Información de contacto</h3>
 
                 <div className={styles.contactInfoItemsContainer}>
                     <div className={styles.contactInfoItem}>
@@ -25,20 +25,20 @@ const ContactSection = () => {
             </div>
 
             <div className={styles.contactFormContainer}>
-                <h3 className={styles.title}>Contact Form</h3>
+                <h3 className={styles.title}>Formulario de contacto</h3>
 
                 <form className={styles.contactForm} action="https://formspree.io/f/xoqgjpvn" method="POST">
                     <label htmlFor="name">
-                        <input className={styles.input} type="text" name='name' id='name' placeholder='Name' maxLength={30} />
+                        <input className={styles.input} type="text" name='name' id='name' placeholder='Nombre' maxLength={30} />
                     </label>
 
                     <label htmlFor="email">
                         <input className={styles.input} type="email" name='email' id='email' placeholder='E-mail' maxLength={50} />
                     </label>
 
-                    <textarea className={styles.input} name="message" id="message" cols="30" rows="8" placeholder='Your message' maxLength={300}></textarea>
+                    <textarea className={styles.input} name="message" id="message" cols="30" rows="8" placeholder='Tu mensaje' maxLength={300}></textarea>
 
-                    <button className={styles.submitButton} type='submit'>Submit</button>
+                    <button className={styles.submitButton} type='submit'>Enviar</button>
                 </form>
             </div>
         </section>

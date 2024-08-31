@@ -25,20 +25,20 @@ const Navbar = ({scrolled}) => {
 
             {showNavbarList && (
                 <ul ref={navbarList} className={styles.navbarList}>
-                    <li><a className={scrolled === true ? styles.scrolledItem : ''} href="/#home">Home</a></li>
-                    <li><a className={scrolled === true ? styles.scrolledItem : ''} href="/#aboutMe">About me</a></li>
-                    <li><a className={scrolled === true ? styles.scrolledItem : ''} href="/#whatImDoing">What I'm doing</a></li>
-                    <li><a className={scrolled === true ? styles.scrolledItem : ''} href="/#proyects">Proyects</a></li>
-                    <li><a className={scrolled === true ? styles.scrolledItem : ''} href="/#contact">Contact</a></li>
+                    <li><a className={scrolled === true ? styles.scrolledItem : ''} href="/#home">Inicio</a></li>
+                    <li><a className={scrolled === true ? styles.scrolledItem : ''} href="/#aboutMe">Sobre mí</a></li>
+                    <li><a className={scrolled === true ? styles.scrolledItem : ''} href="/#whatImDoing">¿Que trabajo realizo?</a></li>
+                    <li><a className={scrolled === true ? styles.scrolledItem : ''} href="/#proyects">Proyectos</a></li>
+                    <li><a className={scrolled === true ? styles.scrolledItem : ''} href="/#contact">Contacto</a></li>
                 </ul>
             )}
 
             <ul className={styles.desktopNavbarList}>
-                <li><a className={scrolled === true ? `${styles.desktopNavbarLink} ${styles.scrolledItemDesktop}` : styles.desktopNavbarLink} href="/#home">Home</a></li>
-                <li><a className={scrolled === true ? `${styles.desktopNavbarLink} ${styles.scrolledItemDesktop}` : styles.desktopNavbarLink} href="/#aboutMe">About me</a></li>
-                <li><a className={scrolled === true ? `${styles.desktopNavbarLink} ${styles.scrolledItemDesktop}` : styles.desktopNavbarLink} href="/#whatImDoing">What I'm doing</a></li>
-                <li><a className={scrolled === true ? `${styles.desktopNavbarLink} ${styles.scrolledItemDesktop}` : styles.desktopNavbarLink} href="/#proyects">Proyects</a></li>
-                <li><a className={scrolled === true ? `${styles.desktopNavbarLink} ${styles.scrolledItemDesktop}` : styles.desktopNavbarLink} href="/#contact">Contact</a></li>
+                <li><a className={scrolled === true ? `${styles.desktopNavbarLink} ${styles.scrolledItemDesktop}` : styles.desktopNavbarLink} href="/#home">Inicio</a></li>
+                <li><a className={scrolled === true ? `${styles.desktopNavbarLink} ${styles.scrolledItemDesktop}` : styles.desktopNavbarLink} href="/#aboutMe">Sobre mí</a></li>
+                <li><a className={scrolled === true ? `${styles.desktopNavbarLink} ${styles.scrolledItemDesktop}` : styles.desktopNavbarLink} href="/#whatImDoing">¿Que trabajo realizo?</a></li>
+                <li><a className={scrolled === true ? `${styles.desktopNavbarLink} ${styles.scrolledItemDesktop}` : styles.desktopNavbarLink} href="/#proyects">Proyectos</a></li>
+                <li><a className={scrolled === true ? `${styles.desktopNavbarLink} ${styles.scrolledItemDesktop}` : styles.desktopNavbarLink} href="/#contact">Contacto</a></li>
             </ul>
         </nav>
     )
