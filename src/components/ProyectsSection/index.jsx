@@ -1,7 +1,7 @@
 import styles from './ProyectsSection.module.css'
-import clothingEcommerceImage from '../../assets/images/clothingecommerce.webp'
 import generala from '../../assets/images/generala.webp'
 import swasistenciavirtual from '../../assets/images/swasistenciavirtual.webp'
+import picaditasdebutarfa from '../../assets/images/picaditasdebutarfa.webp'
 
 const ProyectsSection = () => {
     return (
@@ -17,7 +17,7 @@ const ProyectsSection = () => {
                         <img className={styles.card__image} src={swasistenciavirtual} alt="SW Asistencia Virtual mockup" />
                         <div className={styles.card__content}>
                             <p className={styles.card__title}>SW Asistencia Virtual</p>
-                            <p className={styles.card__description}>Website made for Silvia Waimann, virtual assistant who needs to show her experience and services to obtain new clients.</p>
+                            <p className={styles.card__description}>Sitio web diseñado para Silvia Waimann, una asistente virtual que necesitaba mostrar su experiencia y servicios para obtener nuevos clientes.</p>
                         </div>
                     </div>
                 </a>
@@ -27,6 +27,16 @@ const ProyectsSection = () => {
                         <img className={styles.card__image} src={generala} alt="Anotador Generala by Leandro Heffes" />
                         <div className={styles.card__content}>
                             <p className={styles.card__title}>Anotador Generala</p>
+                            <p className={styles.card__description}>Anotador de generala, juego de dados.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.picaditasdebutarfa.com.ar/">
+                    <div className={styles.card}>
+                        <img className={styles.card__image} src={picaditasdebutarfa} alt="Anotador Generala by Leandro Heffes" />
+                        <div className={styles.card__content}>
+                            <p className={styles.card__title}>Picaditas De Butarfa</p>
                             <p className={styles.card__description}>Scorer of the Generala dice game.</p>
                         </div>
                     </div>
